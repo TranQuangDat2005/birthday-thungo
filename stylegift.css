@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+}
+
+.top {
+    display: flex;
+    justify-self: center;
+    width: 260px;
+}
+
+.bottom {
+    display: flex;
+    justify-self: center;
+    width: 250px;
+    height: 200px;
+}
+
+.tie {
+    display: flex;
+    width: 100px;
+    justify-self: center;
+
+}
+
+#left-tie {
+    width: 10%;
+    border-left: 0px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 30px solid rgb(219, 18, 18);
+    margin: 0;
+}
+
+#right-tie {
+    width: 10%;
+    border-left: 40px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 30px solid rgb(219, 18, 18);
+    margin: 0;
+}
+
+#left-top {
+    margin: 0;
+    height: 32px;
+    width: 99px;
+    background-color: orange;
+}
+
+#middle-top {
+    margin: 0;
+    height: 32px;
+    width: 66px;
+    background-color: rgb(255, 0, 0);
+}
+
+#right-top {
+    margin: 0;
+    height: 32px;
+    width: 100px;
+    background-color: orange;
+}
+
+#left-bottom {
+    margin: 0;
+    height: 200px;
+    width: 100px;
+    background-color: orange;
+}
+
+#middle-bottom {
+    margin: 0;
+    height: 200px;
+    width: 60px;
+    background-color: rgb(255, 0, 0);
+}
+
+#right-bottom {
+    margin: 0;
+    height: 200pxpx;
+    width: 100px;
+    background-color: orange;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+
+}
+
+.paragift{
+    display: flex;
+    width: 250px;
+    justify-self: center;
+    text-align: center;
+    color: #ffff;
+}

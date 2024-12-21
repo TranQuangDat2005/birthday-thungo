@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    background-color: black;
+    margin-top: 20vh;
+}
+
+.Quest {
+    text-align: center;
+    
+}
+
+#button-for_click{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(100, 96, 36);
+    border-style: none;
+    color: aliceblue;
+    border-radius: 30px;
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#button-for_click:hover {
+    background-color: antiquewhite;
+}
+
+#gift{
+    background-color: rgb(100, 96, 36);
+    border-style: none;
+    color: aliceblue;
+    border-radius: 30px;  
+    width: 300px;
+    height: 50px;
+}
+
+#gift:hover{
+    background-color: rgb(104, 101, 69);
+}
